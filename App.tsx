@@ -1,7 +1,8 @@
 import React from "react";
 import { useFonts } from "expo-font";
 import "./global.css";
-import SignIn from "./screens/SignIn";
+import SignIn from "./app/screens/SignIn";
+import SignUp from "./app/screens/SignUp";
 
 export default function App() {
 
@@ -17,6 +18,6 @@ export default function App() {
   }
 
   return (
-    <SignIn />
+    <SignUp />
   );
 }
